@@ -42,7 +42,8 @@ def main():
     with open (output,'w+') as out:
         out.write(title_line)
         for item in drug_summary_sorted:
-            line= item[0]+','+ str(item[1][0])+','+ str(int(item[1][1]))+'\n'
+            ##line= item[0]+','+ str(item[1][0])+','+ str(int(item[1][1]))+'\n' # for the test case
+            line= item[0]+','+ str(item[1][0])+','+ str((item[1][1]))+'\n'
             out.write(line)
 
 
