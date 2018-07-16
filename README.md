@@ -45,6 +45,8 @@ BENZTROPINE MESYLATE,1,1500
 AMBIEN,2,300
 ```
 
-# Dependency
+# Dependency and running the program
 
 The program needs to import the sys package. 
+
+You can change the default input and output txt file in the run.sh file
